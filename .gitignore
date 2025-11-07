@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm / VS Code / IDE settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# mypy / Pyre / type checker caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Logs
+*.log
+
+# Django / Flask stuff
+*.sqlite3
+instance/
+*.db
+*.pid
+
+# FastAPI / Uvicorn
+*.log
+*.pid
+
+# Environments
+.env.local
+.env.dev
+.env.test
+.env.prod
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Pyre type checker
+.pyre/
+
+# Local config
+*.local
+t.txt

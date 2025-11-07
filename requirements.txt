@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+sqlalchemy
+pydantic
+aiofiles
+agate
+regex
+
+# Agents & LLM
+google-generativeai
+agno
+
+faiss-cpu
+
+# Parsing / OCR
+PyMuPDF
+pytesseract
+Pillow
+python-docx
+
+# Testing
+pytest
+httpx
+
