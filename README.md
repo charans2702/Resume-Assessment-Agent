@@ -2,6 +2,19 @@
 
 A FastAPI-based agent pipeline that ingests resumes (PDF, text, image), parses them, compares them against a provided Job Description (JD), and returns an objective assessment with rationale. Uses Google Gemini (via direct SDK or Agno), local RAG with FAISS, and SQLite storage. A browser UI is included under `resume-assessment-ui/`.
 
+## UI Screenshots
+
+
+![Dashboard](screenshots/Screen1.png)
+
+![Upload Resume](screenshots/screen2.png)
+
+![Assessment Result](screenshots/screen3.png)
+
+![Assessment Result](screenshots/screen4.png)
+
+
+
 
 Features
 - Multi-agent pipeline: parsing, assessment, critique, and orchestration via [`run_assessment_pipeline`](app/agents/orchestrator.py).
